@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="intro_text_size">30sp</dimen>
+    <dimen name="go_btn_text_size">30sp</dimen>
+    <dimen name="go_btn_vertical_margin">20dp</dimen>
+    <dimen name="quest_text_size">25sp</dimen>
+    <dimen name="quest_margin_vertical">15dp</dimen>
+    <dimen name="quest_margin_horizontal">20dp</dimen>
+    <dimen name="radiogroup_margin">30dp</dimen>
+    <dimen name="next_btn_margin_vertical">20dp</dimen>
+    <dimen name="final_margin">25dp</dimen>
+    <dimen name="final_txt_size">30sp</dimen>
+    <dimen name="try_again_btn_text_size">20sp</dimen>
+    <dimen name="radio_btn_txt_size">20sp</dimen>
+    <dimen name="height_edit_txt">25dp</dimen>
+    <dimen name="edit_txt_question_margin_top">55dp</dimen>
+    <dimen name="edit_txt_text_size">20sp</dimen>
+    <dimen name="edit_txt_margin_bottom">20dp</dimen>
+    <dimen name="answers_margin_horizontal">40dp</dimen>
+    <dimen name="linear_layout_6_margin_bottom">30dp</dimen>
+    <dimen name="quest6_margin_vertical">35dp</dimen>
+    <dimen name="linear_layout_quest61_padding">10dp</dimen>
+    <dimen name="answers6_margin_horizontal">20dp</dimen>
+    <dimen name="quest6_txt_padding">5dp</dimen>
+    <dimen name="quest6_margin_vertical_land">10dp</dimen>
+    <dimen name="quest6_txt_padding_land">25dp</dimen>
+    <dimen name="quest_margin_horizontal_land">40dp</dimen>
+    <dimen name="answers6_margin_horizontal_land">40dp</dimen>
+    <dimen name="answer6_txt_padding_land">20dp</dimen>
+    <dimen name="final_answers_txt_size">20sp</dimen>
+    <dimen name="final_answers_margin">20dp</dimen>
+    <dimen name="final_answers_marginVertical">5dp</dimen>
+    <dimen name="final_answers_marginHorizontal">10dp</dimen>
+</resources>

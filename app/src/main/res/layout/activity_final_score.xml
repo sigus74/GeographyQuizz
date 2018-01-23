@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/final_scroll"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/borealis1">
+
+<LinearLayout
+    android:id="@+id/final_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.geographyquizz.FinalScore">
+
+    <TextView
+        android:id="@+id/final_message_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/final_margin"
+        android:layout_gravity="center"
+        android:textSize="@dimen/final_txt_size"
+        android:gravity="center_horizontal"
+        android:textColor="@color/final_text_color"
+        android:text="@string/final_title_txt_view_message_text"/>
+
+    <TextView
+        android:id="@+id/correct_answer_enum_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/final_answers_marginVertical"
+        android:layout_marginBottom="@dimen/final_answers_marginVertical"
+        android:layout_marginLeft="@dimen/final_answers_marginHorizontal"
+        android:layout_marginRight="@dimen/final_answers_marginHorizontal"
+        android:textSize="@dimen/final_answers_txt_size"
+        android:textAlignment="center"
+        android:textColor="@color/final_text_color"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/correct_answer1_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/final_answers_marginVertical"
+        android:layout_marginBottom="@dimen/final_answers_marginVertical"
+        android:layout_marginLeft="@dimen/final_answers_marginHorizontal"
+        android:layout_marginRight="@dimen/final_answers_marginHorizontal"
+        android:textSize="@dimen/final_answers_txt_size"
+        android:textAlignment="center"
+        android:textColor="@color/final_text_color"/>
+
+    <TextView
+        android:id="@+id/correct_answer2_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/final_answers_marginVertical"
+        android:layout_marginBottom="@dimen/final_answers_marginVertical"
+        android:layout_marginLeft="@dimen/final_answers_marginHorizontal"
+        android:layout_marginRight="@dimen/final_answers_marginHorizontal"
+        android:textSize="@dimen/final_answers_txt_size"
+        android:textAlignment="center"
+        android:textColor="@color/final_text_color"/>
+
+    <TextView
+        android:id="@+id/correct_answer3_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/final_answers_marginVertical"
+        android:layout_marginBottom="@dimen/final_answers_marginVertical"
+        android:layout_marginLeft="@dimen/final_answers_marginHorizontal"
+        android:layout_marginRight="@dimen/final_answers_marginHorizontal"
+        android:textSize="@dimen/final_answers_txt_size"
+        android:textAlignment="center"
+        android:textColor="@color/final_text_color"/>
+
+    <TextView
+        android:id="@+id/correct_answer4_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/final_answers_marginVertical"
+        android:layout_marginBottom="@dimen/final_answers_marginVertical"
+        android:layout_marginLeft="@dimen/final_answers_marginHorizontal"
+        android:layout_marginRight="@dimen/final_answers_marginHorizontal"
+        android:textSize="@dimen/final_answers_txt_size"
+        android:textAlignment="center"
+        android:textColor="@color/final_text_color"/>
+
+    <TextView
+        android:id="@+id/correct_answer5_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/final_answers_marginVertical"
+        android:layout_marginBottom="@dimen/final_answers_marginVertical"
+        android:layout_marginLeft="@dimen/final_answers_marginHorizontal"
+        android:layout_marginRight="@dimen/final_answers_marginHorizontal"
+        android:textSize="@dimen/final_answers_txt_size"
+        android:textAlignment="center"
+        android:textColor="@color/final_text_color"/>
+
+    <TextView
+        android:id="@+id/correct_answer6_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/final_answers_marginVertical"
+        android:layout_marginBottom="@dimen/final_answers_marginVertical"
+        android:layout_marginLeft="@dimen/final_answers_marginHorizontal"
+        android:layout_marginRight="@dimen/final_answers_marginHorizontal"
+        android:textSize="@dimen/final_answers_txt_size"
+        android:textAlignment="center"
+        android:textColor="@color/final_text_color"/>
+
+    <TextView
+        android:id="@+id/correct_answer7_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/final_answers_marginVertical"
+        android:layout_marginBottom="@dimen/final_answers_marginVertical"
+        android:layout_marginLeft="@dimen/final_answers_marginHorizontal"
+        android:layout_marginRight="@dimen/final_answers_marginHorizontal"
+        android:textSize="@dimen/final_answers_txt_size"
+        android:textAlignment="center"
+        android:textColor="@color/final_text_color"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_btn_text"
+        android:layout_margin="@dimen/final_margin"
+        android:layout_gravity="center"
+        android:textSize="@dimen/try_again_btn_text_size"
+        android:onClick="onSubmitClicked"/>
+
+    <Button
+        android:id="@+id/try_again_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/final_margin"
+        android:layout_gravity="center"
+        android:textSize="@dimen/try_again_btn_text_size"
+        android:text="@string/try_again_btn_text"
+        android:visibility="invisible"
+        android:enabled="false"
+        android:onClick="onTryAgainClicked"/>
+
+</LinearLayout>
+</ScrollView>

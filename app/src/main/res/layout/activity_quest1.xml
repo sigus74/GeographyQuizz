@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.geographyquizz.Quest1">
+
+    <ImageView
+        android:src="@drawable/tripoli1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@color/linear_layout_background_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quest1_text"
+            android:textSize="@dimen/quest_text_size"
+            android:layout_marginTop="@dimen/quest_margin_vertical"
+            android:layout_marginBottom="@dimen/quest_margin_vertical"
+            android:layout_marginStart="@dimen/quest_margin_horizontal"
+            android:layout_marginEnd="@dimen/quest_margin_horizontal"
+            android:textColor="@color/tripoli_color"/>
+
+        <RadioGroup
+            android:id="@+id/answer_radio_group1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/radiogroup_margin">
+
+            <RadioButton
+                android:id="@+id/quest1_radio_btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quest1_radiobtn1_text"
+                android:textColor="@color/tripoli_color"
+                android:textSize="@dimen/radio_btn_txt_size"/>
+
+            <RadioButton
+                android:id="@+id/quest1_correctAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quest1_radiobtn2_text"
+                android:textColor="@color/tripoli_color"
+                android:textSize="@dimen/radio_btn_txt_size"/>
+
+            <RadioButton
+                android:id="@+id/quest1_radio_btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quest1_radiobtn3_text"
+                android:textColor="@color/tripoli_color"
+                android:textSize="@dimen/radio_btn_txt_size"/>
+
+            <RadioButton
+                android:id="@+id/quest1_radio_btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quest1_radiobtn4_text"
+                android:textColor="@color/tripoli_color"
+                android:textSize="@dimen/radio_btn_txt_size"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_btn_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/next_btn_margin_vertical"
+        android:layout_marginBottom="@dimen/next_btn_margin_vertical"
+        android:enabled="false"
+        android:onClick="onNextButtonClicked"/>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.geographyquizz.MainActivity">
+
+    <ImageView
+        android:src="@drawable/images42"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_string"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/intro_text_size"
+        android:textColor="@color/intro_text_color"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_btn_string"
+        android:textAllCaps="true"
+        android:textSize="@dimen/go_btn_text_size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/go_btn_vertical_margin"
+        android:layout_marginBottom="@dimen/go_btn_vertical_margin"
+        android:background="@color/go_btn_background"
+        android:onClick="openQuest1"/>
+
+</RelativeLayout>

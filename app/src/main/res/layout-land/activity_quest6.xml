@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:src="@drawable/eu1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_quest61"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quest6_check_text_land"
+            android:textSize="@dimen/quest_text_size"
+            android:layout_marginTop="@dimen/quest6_margin_vertical_land"
+            android:layout_marginLeft="@dimen/quest_margin_horizontal_land"
+            android:layout_marginRight="@dimen/quest_margin_horizontal_land"
+            android:paddingTop="@dimen/quest6_txt_padding"
+            android:paddingStart="@dimen/quest6_txt_padding_land"
+            android:paddingEnd="@dimen/quest6_txt_padding_land"
+            android:textColor="@color/eu_color"
+            android:background="@color/eu_txt_background"/>
+
+            <CheckBox
+                android:id="@+id/quest6_check_box_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quest6_check_box1_text"
+                android:textColor="@color/eu_color"
+                android:textSize="@dimen/radio_btn_txt_size"
+                android:layout_marginLeft="@dimen/answers6_margin_horizontal_land"
+                android:layout_marginRight="@dimen/answers6_margin_horizontal_land"
+                android:paddingStart="@dimen/answer6_txt_padding_land"
+                android:paddingEnd="@dimen/answer6_txt_padding_land"
+                android:background="@color/eu_txt_background"/>
+
+            <CheckBox
+                android:id="@+id/quest6_check_box_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quest6_check_box2_text"
+                android:textColor="@color/eu_color"
+                android:textSize="@dimen/radio_btn_txt_size"
+                android:layout_marginLeft="@dimen/answers6_margin_horizontal_land"
+                android:layout_marginRight="@dimen/answers6_margin_horizontal_land"
+                android:paddingStart="@dimen/answer6_txt_padding_land"
+                android:paddingEnd="@dimen/answer6_txt_padding_land"
+                android:background="@color/eu_txt_background"/>
+
+            <CheckBox
+                android:id="@+id/quest6_check_box_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quest6_check_box3_text"
+                android:textColor="@color/eu_color"
+                android:textSize="@dimen/radio_btn_txt_size"
+                android:layout_marginLeft="@dimen/answers6_margin_horizontal_land"
+                android:layout_marginRight="@dimen/answers6_margin_horizontal_land"
+                android:paddingStart="@dimen/answer6_txt_padding_land"
+                android:paddingEnd="@dimen/answer6_txt_padding_land"
+                android:background="@color/eu_txt_background"/>
+
+            <CheckBox
+                android:id="@+id/quest6_check_box_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quest6_check_box4_text"
+                android:textColor="@color/eu_color"
+                android:textSize="@dimen/radio_btn_txt_size"
+                android:layout_marginLeft="@dimen/answers6_margin_horizontal_land"
+                android:layout_marginRight="@dimen/answers6_margin_horizontal_land"
+                android:paddingStart="@dimen/answer6_txt_padding_land"
+                android:paddingEnd="@dimen/answer6_txt_padding_land"
+                android:background="@color/eu_txt_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quest6_for_edit_txt_text"
+            android:textSize="@dimen/quest_text_size"
+            android:layout_marginTop="@dimen/quest6_margin_vertical_land"
+            android:layout_marginLeft="@dimen/quest_margin_horizontal_land"
+            android:layout_marginRight="@dimen/quest_margin_horizontal_land"
+            android:textColor="@color/eu_color"
+            android:paddingStart="@dimen/quest6_txt_padding"
+            android:paddingEnd="@dimen/quest6_txt_padding"
+            android:background="@color/eu_txt_background"/>
+
+        <EditText
+            android:id="@+id/edit_txt_id"
+            android:inputType="number"
+            android:layout_marginLeft="@dimen/quest_margin_horizontal_land"
+            android:layout_marginRight="@dimen/quest_margin_horizontal_land"
+            android:textSize="@dimen/edit_txt_text_size"
+            android:hint="@string/edit_txt_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/eu_color"
+            android:background="@color/eu_txt_background"
+            android:paddingStart="@dimen/quest6_txt_padding"
+            android:paddingEnd="@dimen/quest6_txt_padding"/>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/next_button_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_btn_text"
+        android:layout_marginBottom="@dimen/next_btn_margin_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:enabled="false"
+        android:onClick="onNextButtonClicked"/>
+
+</RelativeLayout>

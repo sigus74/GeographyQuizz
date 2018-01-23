@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="intro_text_color">#FFF</color>
+    <color name="go_btn_background">#90AABBCC</color>
+    <color name="red_color">#F00</color>
+    <color name="blue_color">#00F</color>
+    <color name="green_color">#0F0</color>
+    <color name="tripoli_color">#FFF</color>
+    <color name="linear_layout_background_color">#AA78909C</color>
+    <color name="coast_color">#FFECB3</color>
+    <color name="angels_color">#F3E5F5</color>
+    <color name="linear_layout_background_color5">#AAA1837F</color>
+    <color name="canion_color">#FFF</color>
+    <color name="linear_layout_background_color3">#AA1976D2</color>
+    <color name="linear_layout_background_color4">#AA8C9EFF</color>
+    <color name="volcano_color">#111</color>
+    <color name="eu_color">#FFF</color>
+    <color name="linear_layout_background_color6">#AFFF</color>
+    <color name="eu_txt_background">#AAAA</color>
+    <color name="final_text_color">#FFF</color>
+</resources>
